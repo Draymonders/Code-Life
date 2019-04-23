@@ -20,8 +20,9 @@
 - Java程序员面试宝典 (已看完，**第八章的算法题**)
 - 集合(**看源码**， linkedList,arrayList,Vector,hashMap)
 - 网络编程 (BIO,NIO,AIO)
-- 并发编程(Java并发编程的艺术, Java并发编程实战，JUC包下的源码)
+- 并发编程(**Java并发编程的艺术**, Java并发编程实战，JUC包下的源码)
 - JVM(深入理解JVM虚拟机 还有具体的垃圾回收算法CMS G1)
+- Effictive Java
 
 ## 算法与数据结构
 
