@@ -1,7 +1,7 @@
 
 ## 链表
-* - [] 1. 链表的必备知识要点(包括基础知识、刷题中使用的STL等知识)
-* - [] 链表逆序(LeetCode 92,206. Reverse Linked List 1,2)
+* - [x] 1. 链表的必备知识要点(包括基础知识、刷题中使用的STL等知识)
+* - [x] 链表逆序(LeetCode 206,92. Reverse Linked List 1,2)
 * - [] 求两个链表的交点(LeetCode 160. Intersection of Two Linked Lists)
 * - [] 链表的节点交换(LeetCode 24. Swap Nodes in Pairs)
 * - []  链表求环(LeetCode 141,142. Linked List Cycle 1,2)
@@ -15,7 +15,7 @@
 * - []  使用队列实现栈(LeetCode 232. Implement Queue using Stacks) 
 * - []  使用栈实现队列(LeetCode 225. Implement Stack using Queues) 
 * - []  包含min函数的栈(LeetCode 155. Min Stack) 
-* - [ ]  简单的计算器(栈的应用)( LeetCode 224. Basic Calculator)  不会做
+* - []  简单的计算器(栈的应用)( LeetCode 224. Basic Calculator)  不会做
 * - []  堆(优先级队列)知识要点与实现 
 * - []  数组中第K大的数(堆的应用) (LeetCode 215. Kth Largest Element in an Array) 
 * - []  寻找中位数(堆的应用)( LeetCode 295 Find Median from Data Stream)
