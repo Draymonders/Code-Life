@@ -1,30 +1,30 @@
 
 ## 链表
-* - [] 1. 链表的必备知识要点(包括基础知识、刷题中使用的STL等知识)
-* - [] 链表逆序(LeetCode 92,206. Reverse Linked List 1,2)
-* - [] 求两个链表的交点(LeetCode 160. Intersection of Two Linked Lists)
-* - [] 链表的节点交换(LeetCode 24. Swap Nodes in Pairs)
-* - []  链表求环(LeetCode 141,142. Linked List Cycle 1,2)
-* - []  链表重新构造(LeetCode 86. Partition List)
-* - []  复杂的链表复制(LeetCode 138. Copy List with Random Pointer)
-* - []  排序链表合并(2个与多个) (LeetCode 21,23 Merge Two(k) Sorted ListsLeetCode)
+* - [x] 1. 链表的必备知识要点(包括基础知识、刷题中使用的STL等知识)
+* - [x] 链表逆序(LeetCode 92,206. Reverse Linked List 1,2)
+* - [x] 求两个链表的交点(LeetCode 160. Intersection of Two Linked Lists)
+* - [x] 链表的节点交换(LeetCode 24. Swap Nodes in Pairs)
+* - [x]  链表求环(LeetCode 141,142. Linked List Cycle 1,2)
+* - [x]  链表重新构造(LeetCode 86. Partition List)
+* - [x]  复杂的链表复制(LeetCode 138. Copy List with Random Pointer)
+* - [x]  排序链表合并(2个与多个) (LeetCode 21,23 Merge Two(k) Sorted ListsLeetCode)
 
 
 ## 栈、队列、堆
-* - []  栈、队列知识要点与实现(数组、链表) 
-* - []  使用队列实现栈(LeetCode 232. Implement Queue using Stacks) 
-* - []  使用栈实现队列(LeetCode 225. Implement Stack using Queues) 
-* - []  包含min函数的栈(LeetCode 155. Min Stack) 
-* - [ ]  简单的计算器(栈的应用)( LeetCode 224. Basic Calculator)  不会做
-* - []  堆(优先级队列)知识要点与实现 
-* - []  数组中第K大的数(堆的应用) (LeetCode 215. Kth Largest Element in an Array) 
-* - []  寻找中位数(堆的应用)( LeetCode 295 Find Median from Data Stream)
+* - [x]  栈、队列知识要点与实现(数组、链表) 
+* - [x]  使用队列实现栈(LeetCode 232. Implement Queue using Stacks) 
+* - [x]  使用栈实现队列(LeetCode 225. Implement Stack using Queues) 
+* - [x]  包含min函数的栈(LeetCode 155. Min Stack) 
+* - []  简单的计算器(栈的应用)( LeetCode 224. Basic Calculator)  不会做
+* - [x]  堆(优先级队列)知识要点与实现 
+* - [x]  数组中第K大的数(堆的应用) (LeetCode 215. Kth Largest Element in an Array) 
+* - [x]  寻找中位数(堆的应用)( LeetCode 295 Find Median from Data Stream)
 
 
 ## 贪心
-* - []  贪心算法知识要点，刷题必备的STL知识 
-* - []  贪心题目1(LeetCode 455. Assign Cookies) 
-* - []  贪心题目2(LeetCode 402. Remove K Digits) 
+* - [x]  贪心算法知识要点，刷题必备的STL知识 
+* - [x]  贪心题目1(LeetCode 455. Assign Cookies) 
+* - [x]  贪心题目2(LeetCode 402. Remove K Digits) 
 * - []  贪心题目3(LeetCode 134. Gas Station) 
 * - []  贪心题目4(LeetCode 135. Candy) 
 * - []  贪心题目5(LeetCode 502. IPO) 
