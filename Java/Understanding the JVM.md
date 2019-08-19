@@ -62,7 +62,23 @@ Minor GC | Major GC | FULL GC
 - 老年代GC(Major GC/Full GC) 在老年代的GC，伴随着至少一次的Minor GC， `Major GC` 比 `Minor GC` 慢10倍以上
 
 默认15次 Minor GC 晋升到老年代中 ，或者 在`survivor` 空间中相同年龄所有对象大小大于`survivor`空间的一半,可以直接进入老年代
+### 虚拟机性能监控与故障处理工具
+- jps Process status tool 显示制定系统内所有的虚拟机进程
+- jstat Statistics Monitoring Tool 收集HotSpot虚拟机各方面的运行数据
+- jinfo Configuration Info For Java 显示虚拟机配置信息
+- jmap Memory Map for Java 生成Java转储文件(heapdump文件)
+- jhat JVM Heap Analysis Tool 分析 heapdump 文件，建立HTTP服务器，查看分析结果
+- jstack Stack Trace for Java 显示虚拟机的线程快照
+#### 常用命令汇总
+```
+jps -l 查看所有的线程 并且输出主类的全名
+jstat -gc port 250 20 每250秒查询一次 port进程的垃圾收集情况，一共执行20次
+jmap -dump:format=b,file=eclipse.bin port 查看port进程的dump 信息
+jhat eclipse.bin 查看dump文件信息
+jstack -l port 查看堆栈分析 （-l 显示锁信息， -m 显示JNI的堆栈信息）
 
+
+```
 ### 线程安全
 > 线程安全：当多个线程访问同一个对象时，如果不用考虑这些线程在运行时环境下的调度和交替执行，也不需要进行额外的同步，或者在调用方进行任何其他的协调操作，调用这个对象的行为都可以获得正确的结果，那这个对象是线程安全的。
 
