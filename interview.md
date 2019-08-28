@@ -260,4 +260,5 @@ HR面  聊人生 聊对公司的理解 聊未来把¬
 3. 线程A，B，C轮流执行，用`join`
 4. map
 5. Redis数据结构
-6. Spring IOC, AOP, mvc做什么的
+6. Spring IOC, AOP, SpringMVC 做什么的
+7. Redis的淘汰策略
