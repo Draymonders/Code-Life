@@ -24,10 +24,21 @@
 
 
 ## Cpp
+- Essential C++
+- c++语言的设计与演化
 - C++ Primer 第5版
-- STL 源码剖析
-- 深度探索c++对象模型
 - Effective C++
+- More Effeetive C++
+- 深度探索c++对象模型
+- STL 源码剖析
+- 深入理解c11
+- Unix网络编程
+- Linux内核设计与实现
+- 深入理解linux内核
+- unix环境高级编程
+- epoll源码
+- muduo库的源码
+- Redis源码， Nginx源码了解
 
 ## Java​
 
@@ -126,8 +137,7 @@
 
 ## 项目
 
-B站资源很多，或者可以在下面链接里找找
-**[项目视频](https://www.leiyun.org/sf/8a9f0eb75aced5731b91fc109c9aba44.html)**
+B站资源很多，可以自己抽空多找找
 
 
 另外附上大佬整理的tx ali大佬们的项目(一部分)<br>
