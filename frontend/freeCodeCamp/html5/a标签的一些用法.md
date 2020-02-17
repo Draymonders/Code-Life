@@ -1,6 +1,6 @@
 - `a`标签不仅可以跳转外部链接，也可以跳转内部链接
 
-```
+```html
 <a href="#test">Contacts</a>
 ...
 <h2 id="test">Contacts</h2>
