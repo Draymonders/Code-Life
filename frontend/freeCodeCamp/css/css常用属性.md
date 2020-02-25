@@ -1,0 +1,11 @@
+- background
+- border
+- margin
+- padding
+- text-align
+- top
+- bottom
+- left
+- right
+- position
+- display
