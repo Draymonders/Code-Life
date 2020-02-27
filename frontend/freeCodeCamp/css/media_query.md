@@ -11,12 +11,8 @@
 
   @media (max-width: 350px) {
     :root {
-
-      /* add code below */
       --penguin-size: 200px;
       --penguin-skin: black;
-      /* add code above */
-
     }
   }
 
