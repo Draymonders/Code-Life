@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>名人传记</title>
+        <style>
+            html {
+                font-size: 10px;
+            }
+
+            body {
+                font-size: 1.5rem;
+                font-family: monospace;
+                background: gray;
+                text-align: center;
+                color: #233;
+            }
+
+            main {
+                background: white; 
+                height: 1000px;
+            }
+
+            h1 {
+                font-size: 2.0rem;
+            }
+
+            img {
+                max-width: 100%;
+                border-radius: 50%;
+                display: block;
+                /*   height: auto; */
+                margin: 0 auto;
+            }
+
+            @media(max-width: 400px) {
+                img {
+                    width: 350px;
+                }
+            }
+
+            @media(max-width: 200px) {
+                img {
+                    width: 150px;
+                }
+            }
+
+            ul {
+                max-width: 550px;
+                margin: 0 auto 50px auto;
+                text-align: left;
+                line-height: 1.6;
+            }
+
+            li {
+                margin: 16px 0;
+            }
+
+            #footer {
+                font-size: 1.6rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main id="main">
+          <h1 id="title">约翰·冯·诺伊曼</h1>
+          <div id="img-div">
+            <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/JohnvonNeumann-LosAlamos.gif/220px-JohnvonNeumann-LosAlamos.gif" alt="fengnuoyiman">
+            <p id="img-caption">原名诺依曼·亚诺什·拉约什</p>
+          </div>
+          <article id="tribute-info">
+            <ul> 
+              <li>1926年，冯·诺伊曼以22岁的年龄获得了布达佩斯大学数学博士学位，相继在柏林大学和汉堡大学担任数学讲师。</li>
+              <li>1954年，冯·诺伊曼任美国原子能委员会委员。</li>          
+              <li>  1954年夏天，右肩受伤，手术时发现患有骨癌，治疗期间，依然参加每周三次的原子能委员会会议。</li>
+            <ul>
+            </article>
+              
+              <p id="footer"> 
+                <strong>
+            If you have time, you should read more about this incredible human being on his 
+            <a href="https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E5%86%AF%C2%B7%E8%AF%BA%E4%BC%8A%E6%9B%BC" 
+             target="_blank"
+             id="tribute-link"
+               >wiki</a>
+                </strong>
+            </p>
+        </main>
+      
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+      </script>      
+    </body>
+</html>

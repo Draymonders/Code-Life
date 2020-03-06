@@ -1,0 +1,227 @@
+<html>
+<head>
+    <title>产品预览页</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #eee;
+            font-family: sans-serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .content {
+            max-width: 100px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .btn {
+            padding: 0 20px;
+            height: 40px;
+            border: 3px black solid;
+            border-radius: 2px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            min-height: 75px;
+            padding: 0px 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #eee;
+        }
+
+        @media(max-width: 600px) {
+            header {
+                flex-wrap: wrap;
+            }
+        }
+
+        .logo {
+            width: 60px;
+        }
+
+        @media(max-width: 650px) {
+            .logo {
+                margin-top: 15px;
+                width: 100%;
+                position: relative;
+            }
+        }
+
+        .logo > img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        nav {
+            font-weight: 400;
+        }
+
+        @media(max-width: 650px) {
+            nav {
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 0 50px;
+            }
+            nav li {
+                padding-bottom: 5px;
+            }
+        }
+
+        nav > ul {
+            width: 35vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img
+            id="header-img"
+            src="https://pic.cnblogs.com/avatar/1172239/20190623123701.png">    
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-link" > <a href="#A"> A </a> </li>
+                <li class="nav-link" > <a href="#B"> B </a> </li>
+                <li class="nav-link" > <a href="#C"> C </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div>
+                <h1>产品详情</h1>
+            </div>
+            <div>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" id="email" placeholder="flip out the email" required/>
+                    <input type="submit" id="submit" class="btn"> 
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <div class="icon">
+                    <img src="" alt="图标占用">
+                </div>
+                <div>
+                    <h2>title</h2>
+                    <p>content</p>
+                </div>
+            </div>
+            <div>
+                <div class="icon">
+                    <img src="" alt="图标占用">
+                </div>
+                <div>
+                    <h2>title</h2>
+                    <p>content</p>
+                </div>
+            </div>
+            <div>
+                <div class="icon">
+                    <img src="" alt="图标占用">
+                </div>
+                <div>
+                    <h2>title</h2>
+                    <p>content</p>
+                </div>
+            </div>
+        </div>
+        <div id="vedio-show">
+            <iframe
+                id="video"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+                frameborder="0"
+                allowfullscreen
+            ></iframe>
+        </div>
+        <div class="content">
+            <div>
+                <h3>low</h3>
+                <h4>$100</h4>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div>
+                <h3>hign</h3>
+                <h4>$500</h4>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div>
+                <h3>hign</h3>
+                <h4>$500</h4>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div>
+                <h3>hign</h3>
+                <h4>$500</h4>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div>
+                <h3>hign</h3>
+                <h4>$500</h4>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div>
+                <h3>hign</h3>
+                <h4>$500</h4>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </div>
+</body>
+</html>

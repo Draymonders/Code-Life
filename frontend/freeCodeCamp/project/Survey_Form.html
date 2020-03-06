@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>调查表单</title>
+        <style>
+            *, *::before, *::after {
+                /* boder padding占用box的大小，而不是在box外占用大小 */
+                box-sizing: border-box;
+            }
+
+            #title, #description {
+                text-align: center;
+            }
+
+            h1 {
+                line-height: 1.2;
+            }
+
+            p {
+                font-size: 1.125rem;
+            }
+
+            main {
+                width: 280px;
+                margin: 10px auto;
+                border: 1px solid red;
+                background-color: #1b1b32;
+                color: white;
+                z-index: -1;
+            }
+            
+            .input {
+                width: 100%;
+                height: 2.375rem;
+                border-radius: 0.5rem;
+            }
+
+            .form_element {
+                font-size: 1.3rem;
+            }
+
+            form {
+                padding: 1.25rem 0.625rem;
+            }
+            
+            .form_element {
+                margin: 0 atuo 1.25rem auto;
+                /* padding: 1rem; */
+            }
+
+            .container {
+                width: 100%;
+                margin: 1rem auto 0 auto;
+            }
+
+            label {
+                display: flex;
+                align-items: center;
+                font-size: 1.125rem;
+                margin-bottom: 0.5rem;
+            }
+
+            button {
+                width: 90%;
+                display: flex;
+                justify-content: center;
+                padding: 1.125rem;
+                border-radius: 0.5rem;
+            }
+
+            #btn {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">测试调研</h1>
+            <p id="description">测试中遇到的问题调研</p>
+        </header>
+        <main class=".container">
+            <form id="survey-form">
+                <div class="form_element">
+                    <label for="name" id="name-label">名字</label>
+                    <input type="text" class="input" id="name" placeholder="name" required> 
+                </div>
+                <div class="form_element">
+                    <label for="email" id="email-label">邮箱</label>
+                    <input type="email" class="input" id="email" placeholder="email" required> 
+                </div>
+                <div class="form_element">
+                    <label for="number" id="number-label">数字</label>
+                    <input type="number" class="input" id="number" min="10" max="99" placeholder="0" required> 
+                </div>
+                <div class="form_element">
+                    <label for="dropdown" id="dropdown-label">性别选择</label>
+                    <select id="dropdown" required>
+                        <option disabled selected value>请选择一种性别</option>
+                        <option value="man">男</option>
+                        <option value="woman">女</option>
+                    </select>
+                </div>
+                <div class="form_element">
+                    <p>单选测试</p>
+                    <labal><input name="val" type="radio" value="1" class="radio"> 1 </labal>
+                    <labal><input name="val" type="radio" value="2" class="radio"> 2 </labal>
+                </div>
+                <div class="form_element">
+                    <p>多选测试</p>
+                    <label><input name="key" type="checkbox" value="1">1</label>
+                    <label><input name="key" type="checkbox" value="2">2</label>
+                    <label><input name="key" type="checkbox" value="3">3</label>
+                </div>
+                <div class="form_element">
+                    <label for="textarea">文本输入</label>
+                    <textarea id="textarea" class="input" rows="4" cols="50" required> </textarea>
+                </div>
+                <div class="form_element">
+                    <div id="btn">
+                        <button type="submit" id="submit" class="submit-button">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
