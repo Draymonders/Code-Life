@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>技术文档</title>
+    <style>
+        * {
+            font-family: monospace;
+            line-height: 1.4;
+        }
+
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            min-width: 190px;;
+            text-align: center;
+            border: 1px solid black;
+            height: 100%;
+            background: #eee;
+        }
+
+        code {
+            background: #eee;
+        }
+
+        header {
+            font-size: 25px;
+        }
+
+        #navbar > ul {
+            list-style: none; 
+            padding-left: 0px; 
+            /* margin: 0; */
+        }
+
+        #navbar > ul > li {
+            border: 1px solid pink;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-link {
+            font-size: 18px;
+        }
+
+
+        #main-doc {
+            position: absolute;
+            margin-left: 210px;
+        }
+
+        @media(max-width: 400px) {
+            #navbar {
+                width: 150px;
+                min-width: 140px;
+            }
+            #main-doc {
+                margin-left: 155px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <header>language doc</header>
+        <ul>
+            <li><a class="nav-link" href="#Java">Java</a></li>
+            <li><a class="nav-link" href="#Cpp">Cpp</a></li>
+            <li><a class="nav-link" href="#Go">Go</a></li>
+            <li><a class="nav-link" href="#Python">Python</a></li>
+            <li><a class="nav-link" href="#Php">Php</a></li>
+        </ul>
+    </nav>
+    <!-- 主体页 -->
+    <main id="main-doc">
+        <section id="Java" class="main-section">
+            <header>Java</header>
+            <p>Java code</p>
+            <p>
+                <ul>
+                    <li>Java forEach</li>
+                    <li>
+                        <code>
+                            for (int i=0; i&lt;n; i++) { i ++; }
+                        </code>
+                    </li>
+                </ul>
+                
+            </p>
+        </section>
+        <section id="Cpp" class="main-section">
+            <header>Cpp</header>
+            <p>Cpp code</p>
+            <p>
+                <ul>
+                    <li>Cpp forEach</li>
+                    <li>
+                        <code>
+                            for (int i=0; i&lt;n; i++) { i ++; }
+                        </code>
+                    </li>
+                </ul>
+            </p>
+        </section>
+        <section id="Go" class="main-section">
+            <header>Go</header>
+            <p>Go code</p>
+            <p>
+                <ul>
+                    <li>Go forEach</li>
+                    <li>
+                        <code>
+                            for (int i=0; i&lt;n; i++) { i ++; }
+                        </code>
+                    </li>
+                </ul>
+            </p>
+        </section>
+        <section id="Python" class="main-section">
+            <header>Python</header>
+            <p>Python code</p>
+            <p>
+                <ul>
+                    <li>Python forEach</li>
+                    <li>
+                        <code>
+                            for (int i=0; i&lt;n; i++) { i ++; }
+                        </code>
+                    </li>
+                </ul>
+            </p>
+        </section>
+        <section id="Php" class="main-section">
+            <header>Php</header>
+            <p>Php code</p>
+            <p>
+                <ul>
+                    <li>Php forEach</li>
+                    <li>
+                        <code>
+                            for (int i=0; i&lt;n; i++) { i ++; }
+                        </code>
+                    </li>
+                </ul>
+            </p>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

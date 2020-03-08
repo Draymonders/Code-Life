@@ -3,102 +3,122 @@
     <title>产品预览页</title>
     <style>
         * {
-            padding: 0;
-            margin: 0;
+            margin: 0px;
+            padding: 0px;
             box-sizing: border-box;
+            font-family: sans-serif;;
         }
-
-        body {
-            background-color: #eee;
-            font-family: sans-serif;
+        ul {
+            list-style-type: none;
         }
-
-        li {
-            list-style: none;
-        }
-
         a {
-            color: #000;
             text-decoration: none;
         }
 
-        .content {
-            max-width: 100px;
-            width: 100%;
-            margin: 0 auto;
+        #header {
+            position: fixed;
+            background: pink;
+            border: 1px solid red;
+            top:0px;
+            left: 0px;
+            right: 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        #nav-links {
+            display: flex;
+            width: 500px;
+            /* 水平方向是行排列 */
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        @media(max-width: 400px) {
+            #header {
+                display: flex;
+                flex-direction: column;
+            }
+            #nav-links {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        
+
+        #header-img {
+            width: 50px;
+        }
+
+        img {
+            width: 30px;
+        }
+
+        #main {
+            margin: 50px auto; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            margin-top: 10px;
+            border-radius: 5px;;
+            /* display: flex; */
         }
 
         .btn {
-            padding: 0 20px;
-            height: 40px;
-            border: 3px black solid;
-            border-radius: 2px;
-            background: transparent;
-            cursor: pointer;
-        }
-
-        header {
-            position: fixed;
-            top: 0;
-            min-height: 75px;
-            padding: 0px 20px;
+            border-radius: 15px;
+            color: chocolate;
+            background-color: #fff;
             width: 100%;
+            height: 25px;
+            margin-bottom: 15px;
+        }
+
+        .prefer {
             display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #eee;
+            margin-bottom: 5px;
         }
 
-        @media(max-width: 600px) {
-            header {
-                flex-wrap: wrap;
-            }
-        }
-
-        .logo {
-            width: 60px;
-        }
-
-        @media(max-width: 650px) {
-            .logo {
-                margin-top: 15px;
-                width: 100%;
-                position: relative;
-            }
-        }
-
-        .logo > img {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        nav {
-            font-weight: 400;
-        }
-
-        @media(max-width: 650px) {
-            nav {
-                margin-top: 10px;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                padding: 0 50px;
-            }
-            nav li {
-                padding-bottom: 5px;
-            }
-        }
-
-        nav > ul {
+        .desc {
+            padding-left: 30px;
             width: 35vw;
+            height: 80px;
+        }
+        
+        p {
+            /* 自动换行 */
+            word-break:break-word;
+        }
+        #vedio-show > iframe {
+            max-width: 560px;
+            width: 100%;
+        }
+
+        #price {
+            margin-top: 20px;
+            width: 750px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+        }
+
+        .price-info {
+            border: 1px solid #eee;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .price {
+            color: red;
         }
     </style>
 </head>
@@ -110,55 +130,56 @@
             src="https://pic.cnblogs.com/avatar/1172239/20190623123701.png">    
         </div>
         <nav id="nav-bar">
-            <ul>
-                <li class="nav-link" > <a href="#A"> A </a> </li>
-                <li class="nav-link" > <a href="#B"> B </a> </li>
-                <li class="nav-link" > <a href="#C"> C </a> </li>
+            <ul id="nav-links">
+                <li> <a class="nav-link" href="#first" > 详情 </a> </li>
+                <li> <a class="nav-link" href="#content"> 介绍 </a> </li>
+                <li> <a class="nav-link" href="#vedio-show"> 价格 </a> </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <div>
+
+    <main id="main">
+        <div id="first">
+            <div >
                 <h1>产品详情</h1>
             </div>
             <div>
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <input type="email" id="email" placeholder="flip out the email" required/>
-                    <input type="submit" id="submit" class="btn"> 
+                    <input type="email" name="email" id="email" placeholder="flip out the email" required=""> <br>
+                    <input id="submit" type="submit" value="Get Started" class="btn">
                 </form>
             </div>
         </div>
-        <div class="content">
-            <div>
+        <div id="content" class="content">
+            <div class="prefer">
                 <div class="icon">
-                    <img src="" alt="图标占用">
+                    <img src="https://pic.cnblogs.com/avatar/1172239/20190623123701.png" alt="图标占用">
                 </div>
-                <div>
+                <div class="desc">
                     <h2>title</h2>
-                    <p>content</p>
+                    <p>content;content;content;content;content;content;content;content;content;content;content;content;content;content;content;content;content;content;</p>
                 </div>
             </div>
-            <div>
+            <div class="prefer">
                 <div class="icon">
-                    <img src="" alt="图标占用">
+                    <img src="https://pic.cnblogs.com/avatar/1172239/20190623123701.png" alt="图标占用">
                 </div>
-                <div>
+                <div class="desc">
                     <h2>title</h2>
-                    <p>content</p>
+                    <p>content;content;content</p>
                 </div>
             </div>
-            <div>
+            <div class="prefer">
                 <div class="icon">
-                    <img src="" alt="图标占用">
+                    <img src="https://pic.cnblogs.com/avatar/1172239/20190623123701.png" alt="图标占用">
                 </div>
-                <div>
+                <div class="desc">
                     <h2>title</h2>
-                    <p>content</p>
+                    <p>content;content;content</p>
                 </div>
             </div>
         </div>
-        <div id="vedio-show">
+        <section id="vedio-show">
             <iframe
                 id="video"
                 height="315"
@@ -166,62 +187,39 @@
                 frameborder="0"
                 allowfullscreen
             ></iframe>
-        </div>
-        <div class="content">
-            <div>
+        </section>
+        <div id="price">
+            <div class="price-info">
                 <h3>low</h3>
-                <h4>$100</h4>
+                <h4 class="price">$100</h4>
                 <ul>
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
                 </ul>
             </div>
-            <div>
+            <div class="price-info">
+                <h3>medium</h3>
+                <h4 class="price">$300</h4>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div class="price-info">
                 <h3>hign</h3>
-                <h4>$500</h4>
+                <h4 class="price">$500</h4>
                 <ul>
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
                 </ul>
             </div>
-            <div>
-                <h3>hign</h3>
-                <h4>$500</h4>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </ul>
-            </div>
-            <div>
-                <h3>hign</h3>
-                <h4>$500</h4>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </ul>
-            </div>
-            <div>
-                <h3>hign</h3>
-                <h4>$500</h4>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </ul>
-            </div>
-            <div>
-                <h3>hign</h3>
-                <h4>$500</h4>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </ul>
-            </div>
+            
         </div>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

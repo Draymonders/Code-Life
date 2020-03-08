@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>导航页</title>
+    <style>
+        :root {
+            --main-white: #f0f0f0;
+            --main-red: #be3144;
+            --main-blue: #45567d;
+            --main-gray: #303841;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: var(--main-red);
+            height: 50px;
+        }
+
+        #navbar > ul {
+            display: flex;
+            /* 对齐右边 */
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+        }
+
+        #welcome-section {
+            background: var(--main-gray);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-link {
+            font-size: 21px;
+            color: var(--main-white);
+            margin-right: 45px;
+        }
+
+        h1, h2{
+            font-family: monospace;
+            color: var(--main-white);
+            line-height: 5rem;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 27px;
+            text-decoration: underline;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        #desc {
+            color: red;
+            font-size: 24px;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        #projects {
+            background: var(--main-blue);
+            text-align: center;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-gap: 4rem;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding-bottom: 6rem;
+        }
+
+        .project {
+            background: var(--main-gray);
+            border-radius: 2px;
+        }
+
+        @media(max-width:100px) {
+            .project-grid {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+        .project-img {
+            width: 100%;
+            height: 300px;
+        }
+        
+        .project-name {
+            color: var(--main-white);
+        }
+
+        #contact {
+            width: 100%;
+            height: 100vh;
+            background: var(--main-gray);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--main-white);
+        }
+        
+        #contact > h2 {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a class ="nav-link" href="#welcome-section">Welcome</a></li>
+            <li><a class ="nav-link" href="#projects">Projects</a> </li>
+            <li><a class ="nav-link" href="#contactclass ="nav-link" ">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="welcome-section">
+        <h1>Hey I am Draymonder</h1>
+        <p id="desc">a web developer</p>
+    </section>
+    <section id="projects">
+        <h2>There are some of my projects</h2>
+        <div class="project-grid">
+            <a href="https://codepen.io/draymonders/pen/ExjZzxZ" target="_blank" class="project project-tile"> 
+                <img class="project-img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project">
+                <p class="project-name">名人传记</p>
+            </a>
+            <a href="https://codepen.io/draymonders/pen/QWbgrjv" target="_blank" class="project project-tile"> 
+                <img class="project-img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+                <p class="project-name">调查问卷</p>
+            </a>
+            <a href="https://codepen.io/draymonders/pen/abOVOmM" target="_blank" class="project project-tile"> 
+                <img class="project-img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" alt="project">
+                <p class="project-name">产品详情</p>
+            </a>
+            <a href="https://codepen.io/draymonders/pen/YzXEEpV" target="_blank" class="project project-tile"> 
+                <img class="project-img" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" alt="project">
+                <p class="project-name">wiki文档</p>
+            </a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Let's work together...</h2>
+        <div>
+            <a href="https://github.com/draymonders" target="_blank" id="profile-link">
+                <p style="color:white;font-size:20px;">github</p>
+            </a>
+            <a href="" target="_blank" class="contact-links">
+                
+            </a>
+        </div>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
