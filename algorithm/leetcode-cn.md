@@ -73,3 +73,14 @@
 |  :----:  | :----:  | :----: |
 | 121 | 买卖股票的最佳时机 | 暴力 |
 
+
+## 2020.3.12
+|  number   | title | solution |
+|  :----:  | :----:  | :----: |
+| 1071 | 字符串的最大公因子 | gcd  [题解](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/solution/zi-fu-chuan-de-zui-da-gong-yin-zi-by-leetcode-solu/)|
+
+
+## 2020.3.13
+|  number   | title | solution |
+|  :----:  | :----:  | :----: |
+| 169 | 多数元素 | 暴力 |
