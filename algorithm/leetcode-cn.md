@@ -103,3 +103,9 @@
 | 1381 | 设计一个支持增量操作的栈 | 暴力 |
 | 1382 | 将二叉树变平衡 | 中序遍历 & 树构造 |
 | 1383 | **最大的团队值表现** | 贪心 & 优先队列 [题解](https://leetcode-cn.com/submissions/detail/54466382/) |
+
+
+## 2020.03.22
+|  number   | title | solution |
+|  :----:  | :----:  | :----: |
+| 945 | 使数组唯一的最小增量 | [排序暴力nlogn](https://leetcode-cn.com/submissions/detail/55795600/), [计数排序n](https://leetcode-cn.com/submissions/detail/55799185/)|
