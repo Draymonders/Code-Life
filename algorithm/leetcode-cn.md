@@ -109,3 +109,22 @@
 |  number   | title | solution |
 |  :----:  | :----:  | :----: |
 | 945 | 使数组唯一的最小增量 | [排序暴力nlogn](https://leetcode-cn.com/submissions/detail/55795600/), [计数排序n](https://leetcode-cn.com/submissions/detail/55799185/)|
+
+
+## 2020.03.25
+|  number   | title | solution |
+|  :----:  | :----:  | :----: |
+| 892 | 三维形体的表面积 | **数学**, `grid[i][j]`和`grid[i+1][j]`的相交面积为`min(grid[i][j], grid[i+1][j])` | 
+
+
+## 2020.03.26
+|  number   | title | solution |
+|  :----:  | :----:  | :----: |
+| 315 | 计算当前右侧小于当前元素的个数 | `树状数组bit` |
+
+
+## 2020.03.29
+
+|  number   | title | solution |
+|  :----:  | :----:  | :----: |
+| 1162 | 地图分析 | [**多源BFS**](https://leetcode-cn.com/submissions/detail/57893576/) |
