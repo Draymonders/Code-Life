@@ -128,3 +128,12 @@
 |  number   | title | solution |
 |  :----:  | :----:  | :----: |
 | 1162 | 地图分析 | [**多源BFS**](https://leetcode-cn.com/submissions/detail/57893576/) |
+
+## 2020.03.31
+单调栈专题
+
+## 2020.04.02
+|  number   | title | solution |
+|  :----:  | :----:  | :----: |
+| 289 | 生命游戏 | 状态压缩与转移(保存当前状态&更新接下来的状态), 具体看花花leetcode |
+ 
