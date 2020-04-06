@@ -9,6 +9,7 @@ linux         --->     linux学习
 frontend      --->     前端
 backend       --->     后端
 test          --->     测试
+middleware    --->     中间件
 interview     --->     面试
 backup        --->     一些未整理的内容
 ```
@@ -16,10 +17,15 @@ backup        --->     一些未整理的内容
 
 
 ## 资源
+
+### useful resources
+- [临时邮箱](https://ailtemporal.org)  
+
 ### 基础
 - [linux基础入门](https://www.shiyanlou.com/courses/1)
 - [bash入门](https://www.shiyanlou.com/courses/944)
-
+- [**操作系统原理与设计**](https://www.bilibili.com/video/BV1N741177F5)
+- [docker虚拟环境](https://labs.play-with-docker.com/)
 
 ### 前端
 - [freeCodeCamp](https://www.freecodecamp.org/)  一个实战教学的平台
