@@ -31,3 +31,8 @@ docker save ${image_id} > image.tar
 
 docker load < image.tar
 ```
+
+
+## docker run
+- `-it`参数, 就是分配一个`tty`终端,并且可交互
+- `--link`参数 Add link to another container (<name or id>:alias or <name or id>)
