@@ -86,3 +86,7 @@ location / {
   proxy_pass http://group1;
 }
 ```
+
+## autoindex
+- [autoindex的问题](https://stackoverflow.com/questions/44801064/nginx-error-404-when-using-autoindex)
+- [root和alias](https://stackoverflow.com/questions/10631933/nginx-static-file-serving-confusion-with-root-alias)
