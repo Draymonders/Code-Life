@@ -10,12 +10,13 @@ __本`repository`是为了记录自己的大四及未来的生活。__
 
 > 时刻巩固自己的计算机基础 
 > [计算机基础 -> cs_base](./cs_base)
-  - git
-  - http
+  - [《http图解》](./cs_base/http/图解http.md)
   - 硬件
+
 > 后端学习, 各种CRUD杂技 
 > [后端 -> backend](./backend)
-  - bash
+  - git (现在也是个熟练的git熟练工了)
+  - bash 
   - java
   - cpp
   - python

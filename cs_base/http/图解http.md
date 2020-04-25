@@ -25,6 +25,7 @@ http1.0是**建立一个http就用一个tcp连接**
 
 ## 状态码
  - 200  ok
+ - 201  created
  - 204  no content
  - 206  partial content
  - 301  move permanently永久
