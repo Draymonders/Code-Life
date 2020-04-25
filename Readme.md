@@ -6,21 +6,22 @@ __本`repository`是为了记录自己的大四及未来的生活。__
 ## 目录结构
 - [从0开始刷leetcode 每日坚持打卡](./algorithm)   
   - [leetcode个人主页](https://leetcode-cn.com/u/draymonders/)  欢迎监督 
+  - [算法备忘录](./algorithm/readme.md)
 
 - [时刻巩固自己的计算机基础](./cs_base)
   - [《http图解》](./cs_base/http/图解http.md)
-  - 硬件
+  - [硬件](./cs_base/硬件/vedio.md)
 
 - [后端学习, 各种CRUD杂技](./backend)
-  - git (现在也是个熟练的git熟练工了)
-  - bash 
-  - java
-  - cpp
-  - python
+  - [git](./backend/git/git.md)
+  - [bash](./backend/bash/) 
+  - [java](./backend/java)
+  - [cpp](./backend/cpp)
+  - [python](./backend/python)
 
 - [前端很多知识都是从freeCodeCamp学来的](./frontend)
-  - Vue2 (用来做毕设的前端)
-  - React (有空写前端爱写React)
+  - [Vue2](./frontend/Vue)
+  - [React](./frontend/React)
 
 - [一个linux小白慢慢成长的故事](./linux)
   - 各种命令的学习与运用
