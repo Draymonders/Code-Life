@@ -117,7 +117,6 @@ f(n, m) = (f(n-1)+m) % n
 ```
 
 ### kmp
-# kmp
 
 next数组表示 **前缀与后缀的最长匹配长度-1**
 
@@ -136,7 +135,7 @@ a  b  c  a  b  c  a  b  d
 这样做的意义是什么呢，是为了**快速回退**(减少不必要的字符匹配)
 
 
-## 举例
+#### 举例
 ```
 s串
 ississip
@@ -162,7 +161,7 @@ i s s i s s i p
 ```
 
 
-## code
+#### code
 ```c++
 class Solution {
 public:
@@ -209,6 +208,24 @@ auto cmp = [](int a,int b) {
     return a < b;
 };
 priority<int, vector<int>, decltype(cmp)> que(cmp);
+```
+
+### set & map
+声明如下
+```c++
+unordered_map<int, int> mp;
+set<int> st;
+```
+#### 删除元素
+```c++
+mp.erase(key);
+st.erase(elm);
+```
+
+#### 判断是否存在
+```c++
+mp.count(key);
+st.count(elm);
 ```
 
 ### 单调栈专题
