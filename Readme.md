@@ -1,9 +1,11 @@
 <p align="center"><img alt="逐梦少年" src="./imgs/profile.png" width="200px" height="200px">
 </p>
 <h2 align="center">
-Draymonder — The code marathon continue though. 
+Draymonder 
 </h2>
- 
+<h2 align="center">
+-- The code marathon continue though. --
+</h2>
 
 ## 目录结构
 ### [从0开始刷leetcode 每日坚持打卡](./algorithm)   
@@ -25,7 +27,7 @@ Draymonder — The code marathon continue though.
   - [React](./frontend/React)
 
 ### [一个linux小白慢慢成长的故事](./linux)
-  - [bash](./backend/bash/) 
+  - [bash编程基础](./linux/bash/) 
   - 各种命令的学习与运用
 
 ### [中间的学习与使用](./middleware)
