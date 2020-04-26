@@ -23,6 +23,7 @@ Draymonder
   - [python](./backend/python)
 
 ### [前端很多知识都是从freeCodeCamp学来的](./frontend)
+  - [前端基础知识总结](./frontend/freeCodeCamp)
   - [Vue2](./frontend/Vue)
   - [React](./frontend/React)
 
@@ -30,13 +31,13 @@ Draymonder
   - [bash编程基础](./linux/bash/) 
   - 各种命令的学习与运用
 
-### [中间的学习与使用](./middleware)
+### [中间件使用](./middleware)
   - docker
   - [nginx](./middleware/nginx/nginx.md)
   - [k8s](./middleware/k8s/)
 
 ### [一路走来的面试，感谢各个公司给与的面试机会 ](./interview)
-  - 校招面试
+  - [校招面试](./interview/interview.md)
 
 ### [一些有趣的 视频 & 教程](./resources)
   
