@@ -16,7 +16,6 @@ Draymonder — The code marathon continue though.
 
 ### [后端学习, 各种CRUD杂技](./backend)
   - [git](./backend/git/git.md)
-  - [bash](./backend/bash/) 
   - [java](./backend/java)
   - [cpp](./backend/cpp)
   - [python](./backend/python)
@@ -26,6 +25,7 @@ Draymonder — The code marathon continue though.
   - [React](./frontend/React)
 
 ### [一个linux小白慢慢成长的故事](./linux)
+  - [bash](./backend/bash/) 
   - 各种命令的学习与运用
 
 ### [中间的学习与使用](./middleware)
