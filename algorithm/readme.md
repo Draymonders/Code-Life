@@ -15,7 +15,7 @@
 
 ```c++
 void quickSort(vector<int>& arr, int l, int r) {
-    if (l >= r)
+    if (l > r)
         return ;
     int val = arr[l];
     int i = l, j = r;
