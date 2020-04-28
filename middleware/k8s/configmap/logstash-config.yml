@@ -1,0 +1,20 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: logstash-config
+data:
+  logstash-config: |
+    input {
+      kafka {
+        bootstrap_servers => "kafka-service:9092"
+        topics => "user-logs"
+        codec => "json"
+      }
+    }
+
+    output {
+      elasticsearch {
+        hosts => "elasticsearch-service:9200"
+      }
+      stdout { codec => rubydebug }
+    }

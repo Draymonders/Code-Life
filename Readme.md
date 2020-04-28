@@ -44,3 +44,9 @@ Draymonder
 ## todos
 - sock5、http关系和区别
 - grep，sed 命令
+- zookeeper
+- kafka
+- netty
+- elasticsearch
+- webflux
+- python 数据分析
