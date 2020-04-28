@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafka
+  template:
+    metadata:
+      labels:
+        app: kafka
+    spec:
+      containers:
+        - name: kafka
+          image: wurstmeister/kafka
+          env:
+          - name: KAFKA_ADVERTISED_HOST_NAME 
+            value: "10.111.45.237"   # 这里填写 kafka-service的 ip
+          - name: KAFKA_ZOOKEEPER_CONNECT
+            value: "10.103.243.154:2181" # 这里填写 zookeeper的 ip
+          - name: KAFKA_BROKER_ID
+            value: "0"
+          ports:
+            - containerPort: 9092

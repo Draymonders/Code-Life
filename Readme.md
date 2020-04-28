@@ -42,6 +42,5 @@ Draymonder
 ### [一些有趣的 视频 & 教程](./resources)
   
 ## todos
-- [bash学习](https://itnext.io/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba)
 - sock5、http关系和区别
 - grep，sed 命令

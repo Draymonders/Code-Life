@@ -33,4 +33,5 @@
 - 执行批处理任务的 pod 应通过 Kubernetes Job 资源创建, 而不是直接或通过 ReplicationController 或类似对象创建。
 - 需要在未来某个时候运行的 Job 可以通过 CronJob 资源创建。
 
----- 当前看到了4.2节
+
+---- 5.2 done
