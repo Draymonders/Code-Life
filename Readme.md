@@ -19,8 +19,9 @@ Draymonder
 ### [后端学习, 各种CRUD杂技](./backend)
   - [git](./backend/git/git.md)
   - [java](./backend/java)
-  - [cpp](./backend/cpp)
   - [python](./backend/python)
+  - [go](./backend/go)
+  - [cpp](./backend/cpp)
 
 ### [前端很多知识都是从freeCodeCamp学来的](./frontend)
   - [前端基础知识总结](./frontend/freeCodeCamp)
