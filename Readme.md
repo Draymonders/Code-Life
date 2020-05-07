@@ -42,8 +42,9 @@ Draymonder
 ### [一些有趣的 视频 & 教程](./resources)
   
 ## todos
-- sock5、http关系和区别
 - grep，sed 命令
+- java 并发
+- JVM
 - zookeeper
 - kafka
 - netty

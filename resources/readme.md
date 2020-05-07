@@ -7,5 +7,8 @@
 
 ### 基础
 - [linux基础入门](https://www.shiyanlou.com/courses/1)
-- [bash入门](https://www.shiyanlou.com/courses/944)
 - [**操作系统原理与设计**](https://www.bilibili.com/video/BV1N741177F5)
+
+### 前端
+- [freeCodeCamp](https://www.freecodecamp.org/)  一个实战教学的平台
+- [vue2.x入门](https://www.imooc.com/learn/1091)
