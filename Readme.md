@@ -35,6 +35,7 @@ Draymonder
 ### [中间件使用](./middleware)
   - docker
   - [nginx](./middleware/nginx/)
+  - [redis](./middleware/redis/)
   - [k8s](./middleware/k8s/)
 
 ### [一路走来的面试，感谢各个公司给与的面试机会 ](./interview)
