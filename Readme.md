@@ -13,13 +13,17 @@ Draymonder
   - [算法备忘录](./algorithm/readme.md)
 
 ### [时刻巩固自己的计算机基础](./cs_base)
-  - [《http图解》](./cs_base/http/图解http.md)
+  - [http图解](./cs_base/http/图解http.md)
+  - [白话大数据与机器学习](https://github.com/Draymonders/Code-Life/issues/35)
   - [硬件](./cs_base/硬件/vedio.md)
 
 ### [后端学习, 各种CRUD杂技](./backend)
   - [git](./backend/git/git.md)
   - [java](./backend/java)
   - [python](./backend/python)
+    - [numpy](https://github.com/Draymonders/Code-Life/issues/13)
+    - [pandas](https://github.com/Draymonders/Code-Life/issues/15)
+    - [matplotlib](https://github.com/Draymonders/Code-Life/issues/16)
   - [go](./backend/go)
   - [cpp](./backend/cpp)
 
@@ -44,12 +48,11 @@ Draymonder
 ### [一些有趣的 视频 & 教程](./resources)
   
 ## todos
-- grep，sed 命令
-- java 并发
+- 阅读csapp
+- java 基础，并发
 - JVM
-- zookeeper
-- kafka
 - netty
-- elasticsearch
+- zookeeper & kafka
 - webflux
-- python 数据分析
+- elasticsearch
+- SpringCloud
